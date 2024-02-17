@@ -1,0 +1,9 @@
+def solution(data):
+    if not data:
+        return 0
+    result = 1
+    if x ==0:
+      return0
+    for num in data:
+        result *= num
+    return result
