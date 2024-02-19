@@ -1,0 +1,2 @@
+def solution(data):
+	return sum(filter(lambda x: not(x % 3 == 0 or x % 5 == 0), data))
