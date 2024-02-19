@@ -1,0 +1,28 @@
+a = "Pithon" #Python을 작성하고 싶었으나 잘못 작성했다.  변경하는 법은 여라 가지가 있겠으나 오늘은 문자열(String) Slicing을 활용하여 변경하고자 한다.
+a[ :1]
+'P'
+a[2: ]
+'thon'
+print(a[ :1] + 'y' + a[2: ])
+'Python'
+
+or
+
+a = "Pithon" #Python을 작성하고 싶었으나 잘못 작성했다.  변경하는 법은 여라 가지가 있겠으나 오늘은 문자열(String) Slicing을 활용하여 변경하고자 한다.
+y = 'y'
+a[ :1]
+'P'
+a[2: ]
+'thon'
+print(a[ :1] + y + a[2: ])
+'Python'
+
+a = "20230331Rainy"
+date = a[ :8]
+print(date)
+20230331
+
+a = "20230331Rainy"
+weather = a[8: ]
+print(weather)
+Rainy
